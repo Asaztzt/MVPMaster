@@ -1,6 +1,5 @@
 package com.example.zhoutao.mvpmaster;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -50,5 +49,4 @@ public class MainActivity extends BaseActivity<MyView,ShowPresenter<MyView>> imp
     public void showLoading() {
         Toast.makeText(MainActivity.this, "加载成功", Toast.LENGTH_LONG).show();
     }
-
 }
